@@ -1,7 +1,8 @@
 # DLAModel
 This is an C program that simulate a DLA model aglomeration.
 
-The problem was solved by following this steps: \n
+The problem was solved by following this steps:
+
 	Step 1) It is generated a matrix 200x200 with a small cluster in the center.
 	Step 2) It is generated, with a rand() function, an x and y coordinate (random particle) belonging to the matrix and that it is neither part of the cluster nor next to it.
 	Step 3) This particle moves randomly in vertical and horizontal directions, always checking if the cluster is in the vicinity of this particle.
